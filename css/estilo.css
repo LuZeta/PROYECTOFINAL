@@ -9,16 +9,12 @@
 header {
   width: 100%;
   height: 600px;
-  background: linear-gradient(
-      to left,
-      hsl(0deg 62% 21% / 76%),
-      hsl(250deg 98% 42% / 58%),
-      hsl(318deg 89% 56% / 24%)
-    ),
-    url(../assets/centrodemesa.jpg);
+  background: linear-gradient(to left, var(--var1), var(--var2), var(--var3)),
+    var(--url);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+  align-items: center;
   z-index: 1;
 }
 
@@ -206,7 +202,7 @@ main .contenedor_A {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 20px 10px;
   align-items: center;
-  grid-auto-rows: 1fr;  
+  grid-auto-rows: 1fr;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -267,7 +263,7 @@ form {
 }
 
 .titulo {
-  font-family: fangsong;
+  font-family: "Aref Ruqaa Ink", serif;
   color: #793434;
   font-size: 25px;
   text-align: center;
@@ -325,7 +321,7 @@ textarea:valid ~ .labelItem {
 }
 
 button {
-  background: hsl(250deg 100% 21% / 95%);;
+  background: hsl(250deg 100% 21% / 95%);
   display: block;
   width: 100px;
   height: 40px;
@@ -447,7 +443,7 @@ EL MENÚ DESPLEGABLE 750px*/
   }
 }
 @media (max-width: 750px) {
-   .checkbtn {
+  .checkbtn {
     display: block;
   }
   header {
@@ -528,4 +524,3 @@ EL MENÚ DESPLEGABLE 750px*/
     display: flex;
   }
 }
-

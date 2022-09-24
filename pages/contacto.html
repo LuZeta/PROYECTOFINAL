@@ -18,7 +18,12 @@
 </head>
 
 <body>
-  <header>
+  <header style="background-position-y: center;
+    --url: url(../assets/headcontacto.jpg);
+    --var3: hsl(0deg 62% 21% / 76%);
+    --var1: hsl(250deg 98% 42% / 58%);
+    --var2: hsl(318deg 89% 56% / 24%);
+    ">
     <nav>
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
@@ -29,7 +34,7 @@
         <li><a href="eventos.html">Eventos</a></li>
         <li><a href="galeria.html">Galeria</a></li>
         <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
+        <li><a class="active" href="contacto.html">Contacto</a></li>
       </ul>
     </nav>
     <section class="portada">
@@ -43,8 +48,8 @@
     <div class="cont-ext">
       <form class="contenedor_A" action="">
         <div class="form">
-          <div class="titulo">
-            <h2>Deja tu mensaje</h2>
+          <div>
+            <h2 class="titulo">Deja tu mensaje</h2>
           </div>
           <div class="items">
             <input class="inputItem" type="text" name="" id="" required />
@@ -71,10 +76,10 @@
   <footer>
     <section class="contenedorfooter">
       <div class="buttons">
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-instagram"></a>
-        <a href="#" class="fa fa-whatsapp"></a>
+        <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/?lang=en" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/?hl=en" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://www.whatsapp.com/" target="_blank" class="fa fa-whatsapp"></a>
       </div>
     </section>
   </footer>
